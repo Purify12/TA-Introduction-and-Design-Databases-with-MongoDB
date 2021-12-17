@@ -1,5 +1,5 @@
 # TA-Introduction-and-Design-Databases-with-MongoDB
-Soal 1
+# Soal 1
 # Relasi One to One : seorang user dapat memiliki sebuah email serta sebuah nomor telepom
 
 {
@@ -11,7 +11,7 @@ Soal 1
 
 
 
-Soal 2
+# Soal 2
 # Relasi One to Many : seorang user dapat memiliki lebih dari 1 alamat
 
 {
@@ -20,18 +20,18 @@ Soal 2
     "phoneNumber": "Skilvul",
     "address": [{
                "_id": "ObjectId('ADR1')",
-               "street": "Asaha street km.6",
+               "street": "Asahan street km.6",
                "postCode": 21151
           },
           {
                "_id": "ObjectId('ADR2')",
-               "street": "Medeka street no.155",
+               "street": "Merdeka street no.155",
                "postCode": 21152
           }]
 }
 
 
-Soal 3
+# Soal 3
 # Relasi One to Many : tiap objek dapat memiliki banyak varian
 
 {
@@ -53,7 +53,7 @@ Soal 3
      }]
 
 
-Soal 4
+# Soal 4
 # Relasi Many To Many : satu bioskop dapat memutar banyak film dan sebuah film dapat diputar di banyak bioskop
 
 {
